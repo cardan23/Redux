@@ -1,0 +1,39 @@
+Redux
+
+	Benefits
+	
+	1. With Redux we can check the state of elements and go back to them and check the status of this into UI.
+	
+	Example:
+		In a shopping site, we can add an two items to "shopping cart" so the number wil be updated into the cart and 
+		the general count of the item. With redux we have all the registry of the  items added, user who added, time added, etc.
+		
+		So with all these details we can check with precision every change into our application and check the history of this.
+		
+
+	2. Log Rocket tool
+ 
+		With this tool we can check the exact state where the user is seeing, for example:
+
+		we developed a new feature and the customer or QA team tell to us the feature is not working properly
+		the we need to ask for the exact steps to be able to reproduce the issue. So with this tool we can go to the exact
+		state the user or QA team is seeing. We dont need to replicate all steps and go and repeat all steps from our side.
+		
+		This is powerfull because can reduce time in testing for a developer, without missing some step in the middle and doing
+		the same proces than the users and see the same result.
+
+	
+	In summary, we have the next benefits
+
+		1. Predictable state changes
+		2. centralized state
+		3. easy debugging
+		4. preserve page site
+		5. undo/redo
+		6. Ecosystem of add-ons
+
+	Cons
+		1. Complexity
+		2. Verbosity
+		
+	

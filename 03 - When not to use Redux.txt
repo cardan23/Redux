@@ -1,0 +1,10 @@
+When we not use Redux
+
+1. Thight budget
+2. Small to medium - size apps
+3. Simple UI/data flow
+4. Static data
+
+void "RES" problem, "RES" means: 
+	
+	Redux everywhere syndrome

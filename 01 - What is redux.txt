@@ -1,0 +1,29 @@
+Redux
+
+Redux is a state management library for javascript applications (react, angular, vue, vanilla, etc).
+
+State management solutions like Redux
+	1. Flux (by facebook) -- flux inspire to create Redux
+	3. MobX
+
+Explaining redux first time with my own words and my undertandings
+
+	1.Redux is a container where we can store varibles used into javascript and is very useful to access this content 
+	without going back end and check. We have some stept intermediate to access this and check values.
+	
+	Is like a database for front end, with this we can know the next things:
+	
+	Suposse we change a value in UI, with redux we can know.... "how/why/when/where" changed this value.
+	
+	
+	Example
+		A clear example is when we need to update a value into the UI and we need to have sync this value
+		with other parts in UI, in this case we can make a call to backend and update all parts of the code probably causing
+		some discrepancies. But with Redux we can avoid this problem and have all elements in sync with same changes in all parts.
+
+
+	Some descriptions of Redux
+
+	1. Redux centralizes application's state
+	2. Makes data flow transparent and predictable
+
