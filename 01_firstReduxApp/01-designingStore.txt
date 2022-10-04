@@ -1,0 +1,31 @@
+Designing the Store
+
+At the begining of the project we need to desing or define the structure of the Store.
+In this case will be a list of books with next structure.
+
+[
+    {
+        id: 1,
+        description: "",
+        resolved: false
+    },
+    { ... },
+    { ... }
+]
+
+this is only the example for the exercise and try to understand how it works.
+
+In real life we can see some store object like this...
+
+{
+    bugs: [
+        {
+            id: 1,
+            description: "",
+            resolved: false
+        }
+    ],
+    currentUser: {}
+}
+
+but we can see this later on the course, for now lets keep first version.

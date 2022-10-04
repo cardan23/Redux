@@ -1,0 +1,35 @@
+Designing the actions
+
+An actions is just a plain javascript object that describes what just happended.
+
+As second step of the project we need to desing or define the actions.
+
+we can do next actions
+
+Add a bug
+Mark as resolved
+delete a bug
+
+I real world applications we can add a lot of actions like order the list of book objects, 
+filter a list of book objects, etc.  For now we can do
+just those three actions to basic and better understanding.
+
+
+Example of an action:
+
+{
+    type: "bugAdded",
+    description: ""
+}
+
+Redux is inspired into "flux" library wich is like Redux, so in flux we use the action like this:
+
+{
+    type: "bugRemoved",
+    payload:{
+        id: 1
+    }
+}
+
+As you can see we a have a payload object so, we are going to use this object to have a better way to structure our action
+this is not a requirement, just a recomendation.
