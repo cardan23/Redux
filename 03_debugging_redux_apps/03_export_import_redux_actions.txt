@@ -1,0 +1,8 @@
+Export and import actions with Redux Dev Tools
+
+1. On redux dev tools window we can use the "Export to a file" button to export all our actions to a json file
+
+2. For import a json file of actions we have a button "import from a file".
+
+This is very ppowerful and useful to share our actions and maybe replicate some actions or steps with more details.
+With this tools we can do every change or debbug the project in a easier way.

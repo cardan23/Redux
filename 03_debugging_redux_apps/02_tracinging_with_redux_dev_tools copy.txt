@@ -1,0 +1,31 @@
+Tracing with Redux Dev Tools
+
+1. Install redux dev tool npm package like this:
+    npm i redux-devtools-extension
+
+2. With this package installed we can use now "redux-devtools-extension" into our project, so we will made some changes into
+our store configuration.
+
+intead having this way..
+
+
+const store = createStore(
+    reducer,
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+    );
+
+
+
+we will replace "window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()" parameter with
+"devToolsEnhancer({trace: true})".
+
+3. Add "devtool: source-map" to webpack config and  restart development server, stop the server and then execute something
+like this: npm start
+
+4. After this, on Settings tag on devTools from google chrome redux dev tools we need to click.
+
+5. fill the editor to be able to trace the application in our case will be "vscode"
+
+6. Set the absolute path of the project and save changes.
+
+7. After this we will be able to check and trace our dispatch events into visual code (or the code editor you prefer)

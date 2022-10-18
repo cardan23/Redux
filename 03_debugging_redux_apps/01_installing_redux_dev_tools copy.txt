@@ -1,0 +1,13 @@
+Installing Redux Dev Tools
+
+1. Install "Redux DevTools" extension into google Chrome (Firefox has an extension too but is not used so much like Chrome).
+    link: https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
+
+2. Please check basic store for redux on next link: https://github.com/reduxjs/redux-devtools/tree/main/extension#1-with-redux
+
+3. We are going to create the store, reducer and action creators from beggining to apply our new changes for debuggin module.
+
+4. We need to add a new parameter to store for redux developer Tools
+    parameter: window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+
+5. On console we can check the redux dev tools and we can see all objects added.
